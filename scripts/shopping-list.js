@@ -62,7 +62,7 @@ const shoppingList = (function(){
       Item.validateName(itemName);
       store.items.push(Item.create(itemName));
       render();
-    } catch (e) {
+    } catch (error) {
         console.log('Cannot add item: {error.message}');
       
     }

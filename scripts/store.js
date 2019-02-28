@@ -13,6 +13,23 @@ const store = (function() {
   const hideCheckedItems = false;
   const searchTerm = '';
 
+  const findById = function(id) {
+    return items.find(item => item.id === id);
+  }
+
+  const addItem = function(name) {
+    try {
+        tem.validateName(name);
+        this.items.push(create(name));
+    } catch (error) {
+        console.log('Cannot add item: {error.message}');
+    }
+  }
+
+  const findAndToggleChecked = function(id) {
+
+  }
+
   return{
       items,
       hideCheckedItems,
