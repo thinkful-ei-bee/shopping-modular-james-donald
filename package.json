@@ -1,0 +1,24 @@
+{
+    "name": "shopping-modular-james-donald",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "standard": {
+        "globals": [
+            "$"
+        ]
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thinkful-ei-bee/shopping-modular-james-donald.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thinkful-ei-bee/shopping-modular-james-donald/issues"
+    },
+    "homepage": "https://github.com/thinkful-ei-bee/shopping-modular-james-donald#readme"
+}
